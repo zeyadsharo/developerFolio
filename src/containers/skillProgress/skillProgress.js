@@ -4,7 +4,7 @@ import {illustration, techStack} from "../../portfolio";
 import {Fade} from "react-reveal";
 import Build from "../../assets/lottie/build";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
-import Skills from "../../assets/images/skill.svg";
+import Skills from "../../assets/images/percentages_removebg.png";
 export default function StackProgress() {
   if (techStack.viewSkillBars) {
     return (
@@ -31,7 +31,9 @@ export default function StackProgress() {
             {illustration.animated ? (
               <DisplayLottie animationData={Build} />
             ) : (
-              <img
+                <img
+                  //  style padding-top: 10px;
+                  style={{  marginTop: "180px"}}
                 alt="Skills"
                 src={Skills}
               />
