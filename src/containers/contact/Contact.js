@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 import email from "../../assets/lottie/email";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-
+import manWorking from "../../assets/images/contactMailDark.svg";
 export default function Contact() {
   const {isDark} = useContext(StyleContext);
   return (
@@ -58,7 +58,7 @@ export default function Contact() {
             ) : (
               <img
                 alt="Man working"
-                src={require("../../assets/images/contactMailDark.svg")}
+                src={manWorking}
               ></img>
             )}
           </div>
