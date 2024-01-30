@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Zeyad Sharo",
+  title: "Hi all, I'm Zeyad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Swift and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/zeyadsharo",
+  linkedin: "https://www.linkedin.com/in/zeyad-sharo",
+  gmail: "zeyadsharo85@gmail.com",
+  gitlab: "",
+  facebook: "https://www.facebook.com/zeyad.sharo",
+  medium: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,7 +49,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SOfTWARE  DEVELOPER",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
@@ -85,21 +85,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "laravel",
+      fontAwesomeClassname: "fab fa-laravel"
+    },
+    // relatonal database orm
+    {
+      skillName: "sequelize",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
     },
     {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
+    //nuxt js
     {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "nuxtjs",
+      fontAwesomeClassname: "fab fa-nuxt"
     },
+    
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
@@ -126,24 +133,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "University of Zakho",
+      logo: 'https://th.bing.com/th/id/OIP.3mflnkHsjBH3JQhpFukf4QHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7',
+      subHeader: "Bachelor of Science in Computer Science",
+      duration: "September 2016 - September 2020",
+      desc: "Participated in the research of ms and published 1 papers.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+         "Achieved a solid foundation in computer science concepts.",
+        "Participated in various coding projects and assignments.",
+        "Collaborated with peers on team projects.",
+        "Developed a strong understanding of the software development life cycle.",
+        "second place in the university in the field of programming."
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -151,19 +153,28 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
-  experience: [
+   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Database Design",
+      progressPercentage: "90%", // Adjust this percentage as per your proficiency in Database Design
+    },
+    {
+      Stack: "Software Engineering",
+      progressPercentage: "80%", // Adjust this percentage as per your proficiency in Software Engineering
     },
     {
       Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "90%", // Adjust this percentage as per your proficiency in Backend technologies
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
-    }
+      Stack: "Frontend",
+      progressPercentage: "80%", // Adjust this percentage as per your proficiency in Frontend technologies
+    },
+    {
+      Stack: "DevOps",
+      progressPercentage: "75%", // Adjust this percentage as per your proficiency in DevOps tools
+    },
+    // Add more technology categories and proficiency percentages as needed
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -173,31 +184,108 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-    {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      {
+      role: "Project Manager",
+      company: "Lelav",
+      companylogo: "https://lelav.com/wp-content/uploads/2022/11/logo_lelav_hor.white_.512x177.png", // You can add the URL of the company logo here
+      date: "Sep 2022 - Present",
+      desc: "Leading the development and deployment of custom enterprise applications for various clients.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+        "Planning, executing, and closing projects within scope and budget.",
+        "Coordinating teams, tracking progress, and managing risks.",
+        "Communicating with stakeholders and ensuring project success.",
+      ],
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Senior full stack developer",
+      company: "Lelav",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "May 2022 - Sep 2022",
+      desc: "Description of your role and responsibilities at Lelav.",
+      descBullets: [
+        // Add description bullets for this role
+      ],
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Enterprise Applications Developer",
+      company: "Korek Telecom",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Apr 2021 - May 2022",
+      desc: "Description of your role and responsibilities at Korek Telecom.",
+      descBullets: [
+        // Add description bullets for this role
+      ],
+    },
+    {
+      role: "Software Developer",
+      company: "YadgarSoft",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Oct 2020 - May 2022",
+      desc: "Description of your role and responsibilities at YadgarSoft.",
+      descBullets: [
+        // Add description bullets for this role
+      ],
+    },
+    {
+      role: "Software Developer",
+      company: "University of Zakho",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Sep 2020 - Mar 2021",
+      desc: "Description of your role and responsibilities at the University of Zakho.",
+      descBullets: [
+        // Add description bullets for this role
+      ],
+    },
+    {
+      role: "Information Technology Support Engineer",
+      company: "Ferboon institute",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Jul 2019 - Sep 2019",
+      desc: "Description of your role and responsibilities at Ferboon institute.",
+      descBullets: [
+        "Research and identify solutions to software and hardware issues",
+        "Diagnose and troubleshoot technical issues, including account setup and network configuration",
+        "Talk clients through a series of actions, either via phone, email or chat until they’ve solved a technical issue",
+        "Install and configure computer systems and applications within the Institute",
+      ],
+    },
+    {
+      role: "Data Collector",
+      company: "War Child USA",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Aug 2018 - Nov 2018",
+      desc: "Description of your role and responsibilities at War Child USA.",
+      descBullets: [
+        "Insert beneficiaries’ data and answers by inputting text-based and numerical information from the field to the KoBo Toolbox software.",
+        "Update and report complaints from the field to the supervisor.",
+        "Accuracy and sort information according to priorities to prepare source data for computer entry.",
+        "Participate in debriefings and evaluations throughout the data collection process.",
+      ],
+    },
+    {
+      role: "Teaching technical courses",
+      company: "Jammashko ORG",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Jun 2018 - Nov 2018",
+      desc: "Description of your role and responsibilities at Jammashko ORG.",
+      descBullets: [
+        "Teaching technical courses including internet with modern technology, Microsoft Excel & Word, programming language courses, social media advantages & disadvantages.",
+      ],
+    },
+    {
+      role: "Computer Teacher",
+      company: "Harekar Group",
+      companylogo: "", // You can add the URL of the company logo here
+      date: "Aug 2017 - Oct 2017",
+      desc: "Description of your role and responsibilities at Harekar Group.",
+      descBullets: [
+        "Understand the needs of the pupils you are teaching.",
+        "Develop interesting and stimulating course study material.",
+        "Communicate effectively with pupils of all ages.",
+        "Provide individual support to students.",
+        "Build relationships with students.",
+      ],
+    },
   ]
 };
 
@@ -216,26 +304,15 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: "https://auk.edu.krd/wp-content/themes/auk/images/auk_10th_logo.png",
+      projectName: "Recruitment Application",
+      projectDesc: "Our latest project, the Recruitment Application, is geared towards streamlining the hiring process and making it a breeze for both HR staff and job seekers.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://ra.auk.lelav.com/public/jobs"
         }
         //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
       ]
     }
   ],
@@ -252,53 +329,17 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
-      subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
-      imageAlt: "Google Code-In Logo",
+       title: "Honors & Awards",
+      subtitle:"In recognition for a record of outstanding accomplishments in FY-2021",
+      image: "https://www.korektel.com/assets/logos/korek-logo-en.png",
+      imageAlt: "korek telecom Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
-        },
-        {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
-        },
-        {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
         }
       ]
     },
-    {
-      title: "Google Assistant Action",
-      subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      imageAlt: "Google Assistant Action Logo",
-      footerLink: [
-        {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
-        }
-      ]
-    },
-
-    {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
-      imageAlt: "PWA Logo",
-      footerLink: [
-        {name: "Certification", url: ""},
-        {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -324,7 +365,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,11 +384,9 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
-
 // Podcast Section
-
 const podcastSection = {
   title: emoji("Podcast 🎙️"),
   subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
@@ -356,25 +395,25 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+964 750 8961 085",
+  email_address: "zeyadsharo85@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "SharoZeyad", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
