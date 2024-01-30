@@ -16,17 +16,17 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-  animated: true // Set to false to use static SVG
+    animated: false // Set to false to use static SVG
 };
 
 const greeting = {
   username: "Zeyad Sharo",
   title: "Hi all, I'm Zeyad",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / Swift and some other cool libraries and frameworks."
+    "Full Stack Software Developer with expertise in multiple programming languages, databases, front-end and back-end development, and strong DevOps and project management skills."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1ZewGLiVCkq5akch2sRqppt1JV62UiZLG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -106,7 +106,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "nuxtjs",
       fontAwesomeClassname: "fab fa-nuxt"
     },
-    
+
     {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
@@ -134,18 +134,18 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Zakho",
-      logo: 'https://th.bing.com/th/id/OIP.3mflnkHsjBH3JQhpFukf4QHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7',
+      logo: "https://th.bing.com/th/id/OIP.3mflnkHsjBH3JQhpFukf4QHaHa?w=197&h=197&c=7&r=0&o=5&pid=1.7",
       subHeader: "Bachelor of Science in Computer Science",
       duration: "September 2016 - September 2020",
       desc: "Participated in the research of ms and published 1 papers.",
       descBullets: [
-         "Achieved a solid foundation in computer science concepts.",
+        "Achieved a solid foundation in computer science concepts.",
         "Participated in various coding projects and assignments.",
         "Collaborated with peers on team projects.",
         "Developed a strong understanding of the software development life cycle.",
         "second place in the university in the field of programming."
       ]
-    },
+    }
   ]
 };
 
@@ -153,27 +153,27 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
-   experience: [
+  experience: [
     {
       Stack: "Database Design",
-      progressPercentage: "90%", // Adjust this percentage as per your proficiency in Database Design
+      progressPercentage: "90%" // Adjust this percentage as per your proficiency in Database Design
     },
     {
       Stack: "Software Engineering",
-      progressPercentage: "80%", // Adjust this percentage as per your proficiency in Software Engineering
+      progressPercentage: "80%" // Adjust this percentage as per your proficiency in Software Engineering
     },
     {
       Stack: "Backend",
-      progressPercentage: "90%", // Adjust this percentage as per your proficiency in Backend technologies
+      progressPercentage: "90%" // Adjust this percentage as per your proficiency in Backend technologies
     },
     {
       Stack: "Frontend",
-      progressPercentage: "80%", // Adjust this percentage as per your proficiency in Frontend technologies
+      progressPercentage: "80%" // Adjust this percentage as per your proficiency in Frontend technologies
     },
     {
       Stack: "DevOps",
-      progressPercentage: "75%", // Adjust this percentage as per your proficiency in DevOps tools
-    },
+      progressPercentage: "75%" // Adjust this percentage as per your proficiency in DevOps tools
+    }
     // Add more technology categories and proficiency percentages as needed
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -184,17 +184,18 @@ const techStack = {
 const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
-      {
+    {
       role: "Project Manager",
       company: "Lelav",
-      companylogo: "https://lelav.com/wp-content/uploads/2022/11/logo_lelav_hor.white_.512x177.png", // You can add the URL of the company logo here
+      companylogo:
+        "https://lelav.com/wp-content/uploads/2022/11/logo_lelav_hor.white_.512x177.png", // You can add the URL of the company logo here
       date: "Sep 2022 - Present",
       desc: "Leading the development and deployment of custom enterprise applications for various clients.",
       descBullets: [
         "Planning, executing, and closing projects within scope and budget.",
         "Coordinating teams, tracking progress, and managing risks.",
-        "Communicating with stakeholders and ensuring project success.",
-      ],
+        "Communicating with stakeholders and ensuring project success."
+      ]
     },
     {
       role: "Senior full stack developer",
@@ -204,7 +205,7 @@ const workExperiences = {
       desc: "Description of your role and responsibilities at Lelav.",
       descBullets: [
         // Add description bullets for this role
-      ],
+      ]
     },
     {
       role: "Enterprise Applications Developer",
@@ -214,7 +215,7 @@ const workExperiences = {
       desc: "Description of your role and responsibilities at Korek Telecom.",
       descBullets: [
         // Add description bullets for this role
-      ],
+      ]
     },
     {
       role: "Software Developer",
@@ -224,7 +225,7 @@ const workExperiences = {
       desc: "Description of your role and responsibilities at YadgarSoft.",
       descBullets: [
         // Add description bullets for this role
-      ],
+      ]
     },
     {
       role: "Software Developer",
@@ -234,7 +235,7 @@ const workExperiences = {
       desc: "Description of your role and responsibilities at the University of Zakho.",
       descBullets: [
         // Add description bullets for this role
-      ],
+      ]
     },
     {
       role: "Information Technology Support Engineer",
@@ -246,8 +247,8 @@ const workExperiences = {
         "Research and identify solutions to software and hardware issues",
         "Diagnose and troubleshoot technical issues, including account setup and network configuration",
         "Talk clients through a series of actions, either via phone, email or chat until they’ve solved a technical issue",
-        "Install and configure computer systems and applications within the Institute",
-      ],
+        "Install and configure computer systems and applications within the Institute"
+      ]
     },
     {
       role: "Data Collector",
@@ -259,8 +260,8 @@ const workExperiences = {
         "Insert beneficiaries’ data and answers by inputting text-based and numerical information from the field to the KoBo Toolbox software.",
         "Update and report complaints from the field to the supervisor.",
         "Accuracy and sort information according to priorities to prepare source data for computer entry.",
-        "Participate in debriefings and evaluations throughout the data collection process.",
-      ],
+        "Participate in debriefings and evaluations throughout the data collection process."
+      ]
     },
     {
       role: "Teaching technical courses",
@@ -269,8 +270,8 @@ const workExperiences = {
       date: "Jun 2018 - Nov 2018",
       desc: "Description of your role and responsibilities at Jammashko ORG.",
       descBullets: [
-        "Teaching technical courses including internet with modern technology, Microsoft Excel & Word, programming language courses, social media advantages & disadvantages.",
-      ],
+        "Teaching technical courses including internet with modern technology, Microsoft Excel & Word, programming language courses, social media advantages & disadvantages."
+      ]
     },
     {
       role: "Computer Teacher",
@@ -283,9 +284,9 @@ const workExperiences = {
         "Develop interesting and stimulating course study material.",
         "Communicate effectively with pupils of all ages.",
         "Provide individual support to students.",
-        "Build relationships with students.",
-      ],
-    },
+        "Build relationships with students."
+      ]
+    }
   ]
 };
 
@@ -304,9 +305,11 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: "https://auk.edu.krd/wp-content/themes/auk/images/auk_10th_logo.png",
+      image:
+        "https://auk.edu.krd/wp-content/themes/auk/images/auk_10th_logo.png",
       projectName: "Recruitment Application",
-      projectDesc: "Our latest project, the Recruitment Application, is geared towards streamlining the hiring process and making it a breeze for both HR staff and job seekers.",
+      projectDesc:
+        "Our latest project, the Recruitment Application, is geared towards streamlining the hiring process and making it a breeze for both HR staff and job seekers.",
       footerLink: [
         {
           name: "Visit Website",
@@ -329,8 +332,9 @@ const achievementSection = {
 
   achievementsCards: [
     {
-       title: "Honors & Awards",
-      subtitle:"In recognition for a record of outstanding accomplishments in FY-2021",
+      title: "Honors & Awards",
+      subtitle:
+        "In recognition for a record of outstanding accomplishments in FY-2021",
       image: "https://www.korektel.com/assets/logos/korek-logo-en.png",
       imageAlt: "korek telecom Logo",
       footerLink: [
@@ -339,7 +343,7 @@ const achievementSection = {
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
         }
       ]
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
