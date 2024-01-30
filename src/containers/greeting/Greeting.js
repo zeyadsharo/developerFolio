@@ -6,7 +6,7 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import manOnTable from "../../assets/images/systemadmin.png"
+import manOnTable from "../../assets/images/profile_details_removebg.png"
 
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
@@ -55,7 +55,7 @@ export default function Greeting() {
               <DisplayLottie animationData={landingPerson} />
             ) : (
               <img
-                  class={isDark ? "image-dark-mode" : "image-light-mode"}
+                  
                 alt="man sitting on table"
                 src={manOnTable}
               ></img>

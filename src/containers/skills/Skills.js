@@ -6,7 +6,7 @@ import {Fade} from "react-reveal";
 import codingPerson from "../../assets/lottie/codingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import StyleContext from "../../contexts/StyleContext";
-import  developerActivity from "../../assets/images/developermode.png";
+import  developerActivity from "../../assets/images/programming_removebg.png";
 export default function Skills() {
   const {isDark} = useContext(StyleContext);
   if (!skillsSection.display) {

@@ -187,8 +187,7 @@ const workExperiences = {
     {
       role: "Project Manager",
       company: "Lelav",
-      companylogo:
-        "https://lelav.com/wp-content/uploads/2022/11/logo_lelav_hor.white_.512x177.png", // You can add the URL of the company logo here
+      companylogo: require("./assets/images/lelav_logo.png"),
       date: "Sep 2022 - Present",
       desc: "Leading the development and deployment of custom enterprise applications for various clients.",
       descBullets: [
@@ -200,21 +199,31 @@ const workExperiences = {
     {
       role: "Senior full stack developer",
       company: "Lelav",
-      companylogo: "", // You can add the URL of the company logo here
+      companylogo: require("./assets/images/lelav_logo.png"), // You can add the URL of the company logo here
       date: "May 2022 - Sep 2022",
       desc: "Description of your role and responsibilities at Lelav.",
       descBullets: [
-        // Add description bullets for this role
+        'Developing front end website architecture.',
+        'Designing user interactions on web pages.',
+        'Developing back end website applications.',
+        'Creating servers and databases for functionality.',
+        'Ensuring cross-platform optimization for mobile phones.',
+        'Ensuring responsiveness of applications.',
       ]
     },
     {
       role: "Enterprise Applications Developer",
       company: "Korek Telecom",
-      companylogo: "", // You can add the URL of the company logo here
+      companylogo: require("./assets/images/koreklogo.svg"), // You can add the URL of the company logo here
       date: "Apr 2021 - May 2022",
       desc: "Description of your role and responsibilities at Korek Telecom.",
       descBullets: [
-        // Add description bullets for this role
+        'Developing front end website architecture.',
+        'Designing user interactions on web pages.',
+        'Developing back end website applications.',
+        'Creating servers and databases for functionality.',
+        'Ensuring cross-platform optimization for mobile phones.',
+        'Ensuring responsiveness of applications.'
       ]
     },
     {
