@@ -198,12 +198,14 @@ const workExperiences = {
       role: "Project Manager",
       company: "Lelav",
       companylogo: require("./assets/images/lelav_logo.png"),
-      date: "Sep 2022 - Present",
-      desc: "Leading the development and deployment of custom enterprise applications for various clients.",
+      date: "Sep 2022 - Jan 2024",
+      desc: "",
       descBullets: [
         "Planning, executing, and closing projects within scope and budget.",
         "Coordinating teams, tracking progress, and managing risks.",
-        "Communicating with stakeholders and ensuring project success."
+        "Communicating with stakeholders and ensuring project success.",
+        "Managing multiple projects simultaneously.",
+        "Leading the development team and delegating tasks and tracking progress.",
       ]
     },
     {
@@ -211,99 +213,73 @@ const workExperiences = {
       company: "Lelav",
       companylogo: require("./assets/images/lelav_logo.png"), // You can add the URL of the company logo here
       date: "May 2022 - Sep 2022",
-      desc: "Description of your role and responsibilities at Lelav.",
+      desc: "",
       descBullets: [
-        'Developing front end website architecture.',
-        'Designing user interactions on web pages.',
-        'Developing back end website applications.',
-        'Creating servers and databases for functionality.',
-        'Ensuring cross-platform optimization for mobile phones.',
-        'Ensuring responsiveness of applications.',
+        "Developing front end website architecture.",
+        "Designing user interactions on web pages.",
+        "Developing back end website applications.",
+        "Creating servers and databases for functionality.",
+        "Ensuring cross-platform optimization for mobile phones.",
+        "Ensuring responsiveness of applications."
       ]
     },
     {
       role: "Enterprise Applications Developer",
       company: "Korek Telecom",
-      companylogo: require("./assets/images/koreklogo.svg"), // You can add the URL of the company logo here
+      companylogo: require("./assets/images/korek.png"), // You can add the URL of the company logo here
       date: "Apr 2021 - May 2022",
-      desc: "Description of your role and responsibilities at Korek Telecom.",
+      desc: "",
       descBullets: [
-        'Developing front end website architecture.',
-        'Designing user interactions on web pages.',
-        'Developing back end website applications.',
-        'Creating servers and databases for functionality.',
-        'Ensuring cross-platform optimization for mobile phones.',
-        'Ensuring responsiveness of applications.'
+        "Developing front end website architecture.",
+        "Designing user interactions on web pages.",
+        "Developing back end website applications.",
+        "Creating servers and databases for functionality.",
+        "Ensuring cross-platform optimization for mobile phones.",
+        "Ensuring responsiveness of applications."
       ]
     },
     {
-      role: "Software Developer",
+      role: "Full Stack Developer and project supervisor",
       company: "YadgarSoft",
-      companylogo: "", // You can add the URL of the company logo here
+      companylogo: require("./assets/images/y.jpg"), // You can add the URL of the company logo here
       date: "Oct 2020 - May 2022",
-      desc: "Description of your role and responsibilities at YadgarSoft.",
+      desc: "",
       descBullets: [
         // Add description bullets for this role
+        "suparvising the development of the project",
+        "Developing front end website architecture.",
+        "Designing user interactions on web pages.",
+        "Developing back end website applications.",
+        "Creating servers and databases for functionality.",
+        "create desktop application using c# and wpf"
       ]
     },
     {
       role: "Software Developer",
       company: "University of Zakho",
-      companylogo: "", // You can add the URL of the company logo here
+      companylogo: require("./assets/images/uoz.jpeg"), //You can add the URL of the company logo here
       date: "Sep 2020 - Mar 2021",
-      desc: "Description of your role and responsibilities at the University of Zakho.",
+      desc: "",
       descBullets: [
-        // Add description bullets for this role
+        "Developing front end website architecture.",
+        "Designing user interactions on web pages.",
+        "Developing back end website applications.",
+        "Creating servers and databases for functionality.",
+        "Ensuring cross-platform optimization for mobile phones.",
+        "Ensuring responsiveness of applications."
       ]
     },
     {
       role: "Information Technology Support Engineer",
       company: "Ferboon institute",
-      companylogo: "", // You can add the URL of the company logo here
+      companylogo: require("./assets/images/fervuun.png"), // You can add the URL of the company logo here
       date: "Jul 2019 - Sep 2019",
-      desc: "Description of your role and responsibilities at Ferboon institute.",
+      desc: "",
       descBullets: [
         "Research and identify solutions to software and hardware issues",
         "Diagnose and troubleshoot technical issues, including account setup and network configuration",
         "Talk clients through a series of actions, either via phone, email or chat until they’ve solved a technical issue",
         "Install and configure computer systems and applications within the Institute"
-      ]
-    },
-    {
-      role: "Data Collector",
-      company: "War Child USA",
-      companylogo: "", // You can add the URL of the company logo here
-      date: "Aug 2018 - Nov 2018",
-      desc: "Description of your role and responsibilities at War Child USA.",
-      descBullets: [
-        "Insert beneficiaries’ data and answers by inputting text-based and numerical information from the field to the KoBo Toolbox software.",
-        "Update and report complaints from the field to the supervisor.",
-        "Accuracy and sort information according to priorities to prepare source data for computer entry.",
-        "Participate in debriefings and evaluations throughout the data collection process."
-      ]
-    },
-    {
-      role: "Teaching technical courses",
-      company: "Jammashko ORG",
-      companylogo: "", // You can add the URL of the company logo here
-      date: "Jun 2018 - Nov 2018",
-      desc: "Description of your role and responsibilities at Jammashko ORG.",
-      descBullets: [
-        "Teaching technical courses including internet with modern technology, Microsoft Excel & Word, programming language courses, social media advantages & disadvantages."
-      ]
-    },
-    {
-      role: "Computer Teacher",
-      company: "Harekar Group",
-      companylogo: "", // You can add the URL of the company logo here
-      date: "Aug 2017 - Oct 2017",
-      desc: "Description of your role and responsibilities at Harekar Group.",
-      descBullets: [
-        "Understand the needs of the pupils you are teaching.",
-        "Develop interesting and stimulating course study material.",
-        "Communicate effectively with pupils of all ages.",
-        "Provide individual support to students.",
-        "Build relationships with students."
       ]
     }
   ]
