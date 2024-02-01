@@ -16,7 +16,7 @@ const splashScreen = {
 // Summary And Greeting Section
 
 const illustration = {
-    animated: false // Set to false to use static SVG
+  animated: false // Set to false to use static SVG
 };
 
 const greeting = {
@@ -49,25 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "FULL STACK DEVELOPER & Project manager WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "FULL STACK DEVELOPER & Project manager WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly backend applications with Node.js, Laravel, Nuxt.js, and React.js"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ develop highly scalable production ready RESTful APIs"
-    ),
-    emoji(
-      "⚡ Integration of Payment Gateway"
-    ),
-    emoji(
-      "⚡ Database architecture design and development"
-    ),
-    emoji(
-      "⚡ Develop highly scalable production ready RESTful APIs"
-    ),
-    
+    emoji("⚡ develop highly scalable production ready RESTful APIs"),
+    emoji("⚡ Integration of Payment Gateway"),
+    emoji("⚡ Database architecture design and development"),
+    emoji("⚡ Develop highly scalable production ready RESTful APIs")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -205,7 +197,7 @@ const workExperiences = {
         "Coordinating teams, tracking progress, and managing risks.",
         "Communicating with stakeholders and ensuring project success.",
         "Managing multiple projects simultaneously.",
-        "Leading the development team and delegating tasks and tracking progress.",
+        "Leading the development team and delegating tasks and tracking progress."
       ]
     },
     {
@@ -219,8 +211,7 @@ const workExperiences = {
         "Designing user interactions on web pages.",
         "Developing back end website applications.",
         "Creating servers and databases for functionality.",
-        "Ensuring cross-platform optimization for mobile phones.",
-        "Ensuring responsiveness of applications."
+        "publishing the application on production server.",
       ]
     },
     {
@@ -230,12 +221,10 @@ const workExperiences = {
       date: "Apr 2021 - May 2022",
       desc: "",
       descBullets: [
-        "Developing front end website architecture.",
-        "Designing user interactions on web pages.",
-        "Developing back end website applications.",
-        "Creating servers and databases for functionality.",
-        "Ensuring cross-platform optimization for mobile phones.",
-        "Ensuring responsiveness of applications."
+        "Designing and coding software solutions that meet business needs.",
+        "Collaborating with teams to gather requirements and integrate systems.",
+        "Testing, debugging, and maintaining applications for quality and performance.",
+        "Developing ideas for new programs, products, or features by monitoring industry developments and trends."
       ]
     },
     {
@@ -245,7 +234,6 @@ const workExperiences = {
       date: "Oct 2020 - May 2022",
       desc: "",
       descBullets: [
-        // Add description bullets for this role
         "suparvising the development of the project",
         "Developing front end website architecture.",
         "Designing user interactions on web pages.",
@@ -261,12 +249,13 @@ const workExperiences = {
       date: "Sep 2020 - Mar 2021",
       desc: "",
       descBullets: [
-        "Developing front end website architecture.",
-        "Designing user interactions on web pages.",
-        "Developing back end website applications.",
+        "Collecting requirements and discussing with different departments.",
+        "Designing database structure.",
+        "Designing front-end user interfaces.",
+        "Developing back-end website applications.",
         "Creating servers and databases for functionality.",
-        "Ensuring cross-platform optimization for mobile phones.",
-        "Ensuring responsiveness of applications."
+        "Ensuring responsiveness of applications.",
+        "publishing the application on production server.",
       ]
     },
     {
