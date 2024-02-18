@@ -26,7 +26,7 @@ const greeting = {
     "Full Stack Software Developer with expertise in multiple programming languages, databases, front-end and back-end development, and strong DevOps and project management skills."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ZewGLiVCkq5akch2sRqppt1JV62UiZLG/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1LgI4x_2Fw7DB9ACqPFBPFe5_lnSrvrKY/view", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
   
 };
