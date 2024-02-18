@@ -28,6 +28,7 @@ const greeting = {
   resumeLink:
     "https://drive.google.com/file/d/1ZewGLiVCkq5akch2sRqppt1JV62UiZLG/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
+  
 };
 
 // Social Media Links
@@ -297,9 +298,65 @@ const bigProjects = {
           name: "Visit Website",
           url: "https://ra.auk.lelav.com/public/jobs"
         }
-        //  you can add extra buttons here.
       ]
-    }
+    },
+    // site management system for the korek telecom company
+    {
+      image: require("./assets/images/korek.png"),
+      projectName: "Site Management System",
+      projectDesc:
+        "Site Management System for the Korek Telecom Company, which is used to manage the company's sites and towers.",
+      footerLink: [
+        {
+          // url is private for the company
+          name: "Site Management System",
+          url: "https://www.korektel.com"
+        }
+      ]
+    },
+    // erp system for lelav
+    {
+      image: require("./assets/images/lelav_logo.png"),
+      projectName: "ERP System",
+      projectDesc:
+       "ERP System for the Lelav Company ",
+      footerLink: [
+        {
+          // url is private for the company
+          name: "ERP System",
+          url: "https://lelav.com"
+        }
+      ]
+    },
+    // sas portal for korak telecom company
+    {
+      image: require("./assets/images/korek.png"),
+      projectName: "SAS Portal",
+      projectDesc:
+        "SAS Portal for the Korek Telecom Company, which is used to manage the company's customers subscriptions.",
+      footerLink: [
+        {
+          // url is private for the company
+          name: "SAS Portal",
+          url: "https://www.korektel.com"
+        }
+      ]
+    },
+    // crm report system for korak telecom company
+    {
+      image: require("./assets/images/korek.png"),
+      projectName: "CRM Report System",
+      projectDesc:
+        "CRM Report System used for creating and managing reports for Marketing and Sales departments of Korek Telecom Company.",
+      footerLink: [
+        {
+          // url is private for the company
+          name: "CRM Report System",
+          url: "https://www.korektel.com"
+        }
+      ]
+    },
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -314,15 +371,53 @@ const achievementSection = {
 
   achievementsCards: [
     {
+      title: "Google",
+      subtitle: "Technical Support Fundamentals",
+      image:
+        "https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png",
+      imageAlt: "Google Logo",
+      footerLink: [
+        {
+          name: "Course certificate",
+          url: "https://www.coursera.org/account/accomplishments/verify/Z7YTPSJ75P94?utm_source=ln&utm_medium=certificate&utm_content=cert_image&utm_campaign=sharing_cta&utm_product=course"
+        }
+      ]
+    },
+    {
       title: "Honors & Awards",
       subtitle:
         "In recognition for a record of outstanding accomplishments in FY-2021",
-      image: "https://www.korektel.com/assets/logos/korek-logo-en.png",
+      image: require("./assets/images/korek.png"),
       imageAlt: "korek telecom Logo",
       footerLink: [
         {
           name: "Certification",
           url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "1 million Arab Coders",
+      subtitle: "Android Development Track",
+      image:
+        "https://hussainsajwani.com/wp-content/uploads/2018/04/Over-466000-sign-on-for-UAE-coders-initiative.jpg", // replace with actual image url
+      imageAlt: "1 million Arab Coders Logo",
+      footerLink: [
+        {
+          name: "Course certificate",
+          url: "https://drive.google.com/file/d/1uE6F5YC6RlECcSdIPeW7ssF5XYpqdHaO/view?usp=sharing"
+        }
+      ]
+    },
+    {
+      title: "1 million Arab Coders",
+      subtitle: "Front End Developer Track",
+      image:  "https://hussainsajwani.com/wp-content/uploads/2018/04/Over-466000-sign-on-for-UAE-coders-initiative.jpg", // replace with actual image url
+      imageAlt: "1 million Arab Coders Logo",
+      footerLink: [
+        {
+          name: "Course certificate",
+          url: "https://drive.google.com/file/d/11cgO4LrzMoxC43giczEZZqKwTMBzbspe/view"
         }
       ]
     }
